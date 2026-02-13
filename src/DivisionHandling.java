@@ -4,13 +4,11 @@ public class DivisionHandling {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        try {
+      try {
             int result = a / b;
-            System.out.println(result);
+            System.out.print(result);
         } catch (ArithmeticException e) {
-            System.out.println("divide by zero error");
+            System.out.print("Divide by zero error");
         }
-
-        sc.close();
     }
 }
